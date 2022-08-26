@@ -1,2 +1,0 @@
-Invoking command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) /usr/bin/cmake --build /home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam -- -j16 -l16
-Invoked command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) /usr/bin/cmake --build /home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam -- -j16 -l16

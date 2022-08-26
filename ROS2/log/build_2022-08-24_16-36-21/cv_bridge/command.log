@@ -1,1 +1,0 @@
-Invoking command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) /usr/bin/cmake --build /home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge -- -j16 -l16
