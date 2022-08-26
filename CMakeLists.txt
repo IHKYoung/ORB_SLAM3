@@ -40,6 +40,7 @@ MESSAGE(${OpenCV_VERSION})
 
 find_package(Eigen3 REQUIRED)
 find_package(Pangolin REQUIRED)
+find_package(PCL REQUIRED)
 find_package(realsense2)
 
 include_directories(
@@ -51,6 +52,11 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/Thirdparty/Sophus
         ${EIGEN3_INCLUDE_DIR}
         ${Pangolin_INCLUDE_DIRS}
+        ${PCL_INCLUDE_DIRS}
+)
+
+link_directories(
+        ${PROJECT_SOURCE_DIR}/lib/moCamera
 )
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
@@ -127,6 +133,7 @@ target_link_libraries(${PROJECT_NAME}
         ${OpenCV_LIBS}
         ${EIGEN3_LIBS}
         ${Pangolin_LIBRARIES}
+        ${PCL_LIBRARIES}
         ${PROJECT_SOURCE_DIR}/Thirdparty/DBoW2/lib/libDBoW2.so
         ${PROJECT_SOURCE_DIR}/Thirdparty/g2o/lib/libg2o.so
         -lboost_serialization
@@ -148,8 +155,8 @@ endif ()
 
 # For METOAK
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/METOAK)
-add_executable(get_rectify_stereo METOAK/get_rectify_stereo.cpp)
-target_link_libraries(get_rectify_stereo ${metoak_libs})
+add_executable(moStereo METOAK/moStereo.cpp METOAK/common_function.cpp)
+target_link_libraries(moStereo ${metoak_libs} ${PROJECT_NAME})
 
 # RGB-D examples
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/RGB-D)

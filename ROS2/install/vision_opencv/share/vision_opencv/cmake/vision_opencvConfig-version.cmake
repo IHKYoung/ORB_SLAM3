@@ -1,0 +1,1 @@
+/home/young/SLAM/ORB_SLAM3/ROS2/build/vision_opencv/ament_cmake_core/vision_opencvConfig-version.cmake

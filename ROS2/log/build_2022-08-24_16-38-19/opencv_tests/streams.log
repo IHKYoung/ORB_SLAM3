@@ -1,0 +1,29 @@
+[0.918s] Invoking command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/opencv_tests': AMENT_PREFIX_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge CONDA_PROMPT_MODIFIER=(SLAM) LD_LIBRARY_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/opencv3/lib:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/opencv_tests/lib/python3.10/site-packages:/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/young/SLAM/ORB_SLAM3/ROS2/install/opencv_tests --editable --build-directory /home/young/SLAM/ORB_SLAM3/ROS2/build/opencv_tests/build --no-deps install_data --install-dir /home/young/SLAM/ORB_SLAM3/ROS2/install/opencv_tests
+[1.217s] running develop
+[1.217s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.218s]   warnings.warn(
+[1.219s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.220s]   warnings.warn(
+[1.295s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.296s]   warnings.warn(
+[1.296s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.296s]   warnings.warn(
+[1.296s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.296s]   warnings.warn(
+[1.413s] running egg_info
+[1.413s] writing opencv_tests.egg-info/PKG-INFO
+[1.413s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[1.413s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[1.413s] writing requirements to opencv_tests.egg-info/requires.txt
+[1.413s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[1.415s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[1.416s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[1.418s] running build_ext
+[1.418s] Creating /home/young/SLAM/ORB_SLAM3/ROS2/install/opencv_tests/lib/python3.10/site-packages/opencv-tests.egg-link (link to .)
+[1.419s] Installing broadcast script to /home/young/SLAM/ORB_SLAM3/ROS2/install/opencv_tests/lib/opencv_tests
+[1.419s] Installing rosfacedetect script to /home/young/SLAM/ORB_SLAM3/ROS2/install/opencv_tests/lib/opencv_tests
+[1.419s] Installing source script to /home/young/SLAM/ORB_SLAM3/ROS2/install/opencv_tests/lib/opencv_tests
+[1.419s] 
+[1.419s] Installed /home/young/SLAM/ORB_SLAM3/ROS2/build/opencv_tests
+[1.419s] running install_data
+[1.454s] Invoked command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge CONDA_PROMPT_MODIFIER=(SLAM) LD_LIBRARY_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/opencv3/lib:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/opencv_tests/lib/python3.10/site-packages:/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/young/SLAM/ORB_SLAM3/ROS2/install/opencv_tests --editable --build-directory /home/young/SLAM/ORB_SLAM3/ROS2/build/opencv_tests/build --no-deps install_data --install-dir /home/young/SLAM/ORB_SLAM3/ROS2/install/opencv_tests

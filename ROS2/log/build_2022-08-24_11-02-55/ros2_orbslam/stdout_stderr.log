@@ -1,0 +1,12 @@
+[ 33%] Built target mono
+[ 55%] [32m[1mLinking CXX executable stereo[0m
+[ 77%] Built target rgbd
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.406
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.406
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.406
+/usr/bin/ld: CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o: undefined reference to symbol '_ZN2cv23initUndistortRectifyMapERKNS_11_InputArrayES2_S2_S2_NS_5Size_IiEEiRKNS_12_OutputArrayES7_'
+/usr/bin/ld: /usr/local/opencv4/lib/libopencv_calib3d.so.406: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/stereo.dir/build.make:218: stereo] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/stereo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

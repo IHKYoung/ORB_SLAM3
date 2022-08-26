@@ -1,0 +1,13 @@
+[0.039s] Invoking command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) /usr/bin/cmake --build /home/young/SLAM/ORB_SLAM3/ROS2/build/image_geometry -- -j16 -l16
+[0.178s] [ 22%] Built target gtest_main
+[0.179s] [ 55%] Built target image_geometry
+[0.186s] [ 77%] Built target gtest
+[0.205s] [ 77%] Built target ament_cmake_python_symlink_image_geometry
+[0.252s] [100%] Built target image_geometry-utest
+[0.593s] running egg_info
+[0.594s] writing image_geometry.egg-info/PKG-INFO
+[0.594s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[0.595s] writing top-level names to image_geometry.egg-info/top_level.txt
+[0.598s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[0.599s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[0.642s] [100%] Built target ament_cmake_python_build_image_geometry_egg

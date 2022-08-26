@@ -1,0 +1,44 @@
+[0.318s] Invoking command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam': AMENT_PREFIX_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge:/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) LD_LIBRARY_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/opencv3/lib:/usr/local/opencv3/lib:/usr/local/opencv4/lib:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam -- -j16 -l16
+[0.367s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.642s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.663s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.730s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.735s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.747s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.770s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.799s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.911s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.914s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.123s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.361s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.563s] -- Found cv_bridge: 3.0.3 (/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/cmake)
+[1.575s] -- Found message_filters: 4.3.2 (/opt/ros/humble/share/message_filters/cmake)
+[1.680s] -- Configuring done
+[1.704s] -- Generating done
+[1.706s] -- Build files have been written to: /home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam
+[1.741s] [35m[1mConsolidate compiler generated dependencies of target mono[0m
+[1.742s] [35m[1mConsolidate compiler generated dependencies of target rgbd[0m
+[1.797s] [ 50%] Built target mono
+[1.797s] [100%] Built target rgbd
+[1.809s] Invoked command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam' returned '0': AMENT_PREFIX_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge:/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) LD_LIBRARY_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/opencv3/lib:/usr/local/opencv3/lib:/usr/local/opencv4/lib:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam -- -j16 -l16
+[1.849s] Invoking command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam': AMENT_PREFIX_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge:/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) LD_LIBRARY_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/opencv3/lib:/usr/local/opencv3/lib:/usr/local/opencv4/lib:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam
+[1.858s] -- Install configuration: ""
+[1.858s] -- Execute custom install script
+[1.859s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/lib/ros2_orbslam/mono
+[1.868s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/lib/ros2_orbslam/rgbd
+[1.876s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ament_index/resource_index/package_run_dependencies/ros2_orbslam
+[1.885s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ament_index/resource_index/parent_prefix_path/ros2_orbslam
+[1.894s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/ament_prefix_path.sh
+[1.901s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/ament_prefix_path.dsv
+[1.909s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/path.sh
+[1.925s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/path.dsv
+[1.932s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.bash
+[1.941s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.sh
+[1.950s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.zsh
+[1.958s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.dsv
+[1.966s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ros2_orbslam/package.dsv
+[1.974s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ament_index/resource_index/packages/ros2_orbslam
+[1.982s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ros2_orbslam/cmake/ros2_orbslamConfig.cmake
+[1.990s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ros2_orbslam/cmake/ros2_orbslamConfig-version.cmake
+[1.997s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/ros2_orbslam/share/ros2_orbslam/package.xml
+[2.012s] Invoked command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam' returned '0': AMENT_PREFIX_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge:/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) LD_LIBRARY_PATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/opencv3/lib:/usr/local/opencv3/lib:/usr/local/opencv4/lib:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam

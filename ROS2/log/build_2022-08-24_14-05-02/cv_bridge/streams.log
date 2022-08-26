@@ -1,0 +1,158 @@
+[0.031s] Invoking command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) /usr/bin/cmake /home/young/SLAM/ORB_SLAM3/ROS2/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge
+[0.124s] -- The C compiler identification is GNU 11.2.0
+[0.202s] -- The CXX compiler identification is GNU 11.2.0
+[0.212s] -- Detecting C compiler ABI info
+[0.305s] -- Detecting C compiler ABI info - done
+[0.317s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.317s] -- Detecting C compile features
+[0.318s] -- Detecting C compile features - done
+[0.323s] -- Detecting CXX compiler ABI info
+[0.430s] -- Detecting CXX compiler ABI info - done
+[0.441s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.442s] -- Detecting CXX compile features
+[0.442s] -- Detecting CXX compile features - done
+[0.445s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.719s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[0.800s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.393s] -- Found Python3: /usr/include/python3.10 (found version "3.10.4") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[1.411s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python310 
+[1.412s] -- Found rcpputils: 2.4.0 (/opt/ros/humble/share/rcpputils/cmake)
+[1.428s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.459s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.465s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.476s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.494s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.516s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.140s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.319s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.320s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.509s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.510s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.693s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.701s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.870s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.875s] -- Looking for pthread.h
+[3.031s] -- Looking for pthread.h - found
+[3.031s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.199s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.201s] -- Found Threads: TRUE  
+[4.935s] -- Configuring done
+[4.961s] -- Generating done
+[4.963s] -- Build files have been written to: /home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge
+[4.977s] Invoked command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) /usr/bin/cmake /home/young/SLAM/ORB_SLAM3/ROS2/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge
+[4.979s] Invoking command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) /usr/bin/cmake --build /home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge -- -j16 -l16
+[5.102s] [ 12%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[5.102s] [ 12%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[5.103s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.127s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.127s] [ 25%] Built target ament_cmake_python_symlink_cv_bridge
+[5.759s] running egg_info
+[5.761s] creating cv_bridge.egg-info
+[5.761s] writing cv_bridge.egg-info/PKG-INFO
+[5.761s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[5.762s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[5.762s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[5.766s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[5.767s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[5.831s] [ 25%] Built target ament_cmake_python_build_cv_bridge_egg
+[6.566s] [ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.700s] [ 31%] Built target gtest_main
+[10.922s] [ 37%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.097s] [ 37%] Built target gtest
+[12.104s] [ 43%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[12.313s] [ 43%] Built target cv_bridge
+[12.350s] [ 50%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o[0m
+[12.351s] [ 56%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[12.351s] [ 62%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[12.354s] [ 75%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o[0m
+[12.354s] [ 75%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
+[12.355s] [ 81%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o[0m
+[12.357s] [ 87%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o[0m
+[16.798s] [ 93%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[17.159s] [ 93%] Built target cv_bridge-utest
+[17.526s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[17.527s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[17.527s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[17.527s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[17.527s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[17.527s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[17.527s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[17.528s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[17.528s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[17.528s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[17.528s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[17.528s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[17.529s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[17.529s]                  from [01m[K/home/young/SLAM/ORB_SLAM3/ROS2/src/vision_opencv/cv_bridge/src/module.hpp:20[m[K,
+[17.529s]                  from [01m[K/home/young/SLAM/ORB_SLAM3/ROS2/src/vision_opencv/cv_bridge/src/module_opencv3.cpp:3[m[K:
+[17.529s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[17.529s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[17.529s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.539s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[17.539s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[17.539s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.630s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[17.630s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[17.630s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[17.630s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[17.631s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[17.631s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[17.631s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[17.631s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[17.631s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[17.631s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[17.632s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[17.632s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[17.632s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[17.632s]                  from [01m[K/home/young/SLAM/ORB_SLAM3/ROS2/src/vision_opencv/cv_bridge/src/module.hpp:20[m[K,
+[17.632s]                  from [01m[K/home/young/SLAM/ORB_SLAM3/ROS2/src/vision_opencv/cv_bridge/src/module.cpp:36[m[K:
+[17.632s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[17.633s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[17.633s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.641s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[17.641s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[17.642s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.734s] [100%] [32m[1mLinking CXX shared module boost/cv_bridge_boost.so[0m
+[18.875s] [100%] Built target cv_bridge_boost
+[18.888s] Invoked command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) /usr/bin/cmake --build /home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge -- -j16 -l16
+[18.917s] Invoking command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) /usr/bin/cmake --install /home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge
+[18.925s] -- Install configuration: ""
+[18.926s] -- Execute custom install script
+[18.927s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[18.935s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[18.944s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.0.3-py3.10.egg-info/PKG-INFO
+[18.953s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.0.3-py3.10.egg-info/SOURCES.txt
+[18.961s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.0.3-py3.10.egg-info/dependency_links.txt
+[18.970s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.0.3-py3.10.egg-info/top_level.txt
+[18.979s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py
+[18.988s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py
+[18.997s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[19.006s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost//cv_bridge_boost.so
+[19.015s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
+[19.024s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h
+[19.036s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/lib/libcv_bridge.so
+[19.046s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[19.055s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[19.065s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[19.074s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[19.084s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/environment/path.sh
+[19.095s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[19.104s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/local_setup.bash
+[19.113s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/local_setup.sh
+[19.121s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[19.130s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[19.138s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/package.dsv
+[19.147s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[19.155s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[19.163s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.172s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[19.181s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[19.191s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[19.201s] -- Symlinking: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/package.xml
+[19.253s] Listing '/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge'...
+[19.253s] Compiling '/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py'...
+[19.253s] Listing '/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost'...
+[19.253s] Compiling '/home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py'...
+[19.258s] -- Installing: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[19.258s] -- Installing: /home/young/SLAM/ORB_SLAM3/ROS2/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[19.261s] Invoked command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) /usr/bin/cmake --install /home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge

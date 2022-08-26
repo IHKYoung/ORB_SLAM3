@@ -1,0 +1,31 @@
+-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.0.3 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found message_filters: 4.3.2 (/opt/ros/humble/share/message_filters/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/young/SLAM/ORB_SLAM3/ROS2/build/ros2_orbslam
+[35m[1mConsolidate compiler generated dependencies of target mono[0m
+[35m[1mConsolidate compiler generated dependencies of target stereo[0m
+[35m[1mConsolidate compiler generated dependencies of target rgbd[0m
+[ 22%] [32m[1mLinking CXX executable stereo[0m
+[ 44%] Built target rgbd
+[ 77%] Built target mono
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.406
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.406
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.406
+/usr/bin/ld: CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o: undefined reference to symbol '_ZN2cv23initUndistortRectifyMapERKNS_11_InputArrayES2_S2_S2_NS_5Size_IiEEiRKNS_12_OutputArrayES7_'
+/usr/bin/ld: /usr/local/opencv4/lib/libopencv_calib3d.so.406: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/stereo.dir/build.make:218: stereo] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/stereo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

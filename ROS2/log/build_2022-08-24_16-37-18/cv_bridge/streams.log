@@ -1,0 +1,14 @@
+[0.041s] Invoking command in '/home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SLAM) /usr/bin/cmake --build /home/young/SLAM/ORB_SLAM3/ROS2/build/cv_bridge -- -j16 -l16
+[0.180s] [ 12%] Built target gtest_main
+[0.182s] [ 25%] Built target gtest
+[0.183s] [ 43%] Built target cv_bridge
+[0.191s] [ 43%] Built target ament_cmake_python_symlink_cv_bridge
+[0.259s] [ 81%] Built target cv_bridge-utest
+[0.263s] [100%] Built target cv_bridge_boost
+[0.601s] running egg_info
+[0.602s] writing cv_bridge.egg-info/PKG-INFO
+[0.602s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[0.603s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[0.606s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[0.606s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[0.650s] [100%] Built target ament_cmake_python_build_cv_bridge_egg
