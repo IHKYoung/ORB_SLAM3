@@ -1,5 +1,4 @@
 # Ignore all
-*.pcd
 *log*
 
 # Unignore all with extensions
