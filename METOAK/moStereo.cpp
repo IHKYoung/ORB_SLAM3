@@ -5,7 +5,7 @@
 #include <chrono>
 
 // 处理ctrl+c中断
-#include "signal.h"
+#include <csignal>
 
 using namespace cv;
 using namespace std;

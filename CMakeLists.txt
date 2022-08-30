@@ -125,7 +125,8 @@ add_library(${PROJECT_NAME} SHARED
         include/TwoViewReconstruction.h
         include/SerializationUtils.h
         include/Config.h
-        include/Settings.h)
+        include/Settings.h
+        include/date.h)
 
 add_subdirectory(Thirdparty/g2o)
 
@@ -157,6 +158,8 @@ endif ()
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/METOAK)
 add_executable(moStereo METOAK/moStereo.cpp METOAK/common_function.cpp)
 target_link_libraries(moStereo ${metoak_libs} ${PROJECT_NAME})
+add_executable(moLocal METOAK/moLocal.cpp METOAK/common_function.cpp)
+target_link_libraries(moLocal ${metoak_libs} ${PROJECT_NAME})
 
 # RGB-D examples
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/RGB-D)
