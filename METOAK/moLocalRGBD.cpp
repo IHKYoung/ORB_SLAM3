@@ -75,7 +75,7 @@ int32_t main(int32_t argc, char **argv) {
         // 20 Hz
         // 大约等待一半的时间
          usleep(25000);
-        
+
         if (bEnd) {
             // Stop all threads
             SLAM.Shutdown();
